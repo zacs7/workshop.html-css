@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+header nav {
+    margin-top: 1rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+header nav a:hover {
+    background: #fff;
+    color: #333;
+    border: 2px solid #fff;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    margin: 1rem auto;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+section p {
+    margin: 1rem 0;
+}
+
+/* Projects Section */
+.project {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.project:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
